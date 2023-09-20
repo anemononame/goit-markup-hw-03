@@ -1,0 +1,144 @@
+body {
+    background-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
+}
+ul,ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 111.111%;
+    font-weight: 700;
+    letter-spacing: 0.72;
+    text-transform: capitalize;
+}
+/* Header */
+.logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 117%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-studio {
+    color: #2e2f42;
+}
+.nav-menu {
+    color: #2e2f42;
+    line-height: 1.5;
+}
+.nav-menu:hover, .nav-menu:focus {
+    color: #404bbf;
+}
+.contacts {
+    font-weight: 400;
+        color: #434455;
+        font-style: normal;
+}
+nav {
+    font-weight: 500;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+.contacts-menu {
+    font-weight: 500;
+        color: #434455;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+}
+.contacts-menu:hover, .contacts-menu:focus {
+    color: #404bbf;
+}
+/* Order section */
+.order-sec {
+    background-color: #2E2F42;
+}
+.order-title {
+    color: #FFF;
+    font-size: 56px;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+    text-align: center;
+}
+.order-button {
+    color: #FFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+}
+.order-button:hover, .order-button:focus {
+    background-color: #404BBF;
+}
+/*benefits*/
+.benefits h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.benefits p {
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+.benefits-title {
+    font-weight: 500;
+}
+/* Our team */
+.team {
+    background-color: #F4F4FD;
+}
+.team h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.team p {
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+/* Our Portfolio */
+.portfolio h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.title-h {
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.menu {
+    background-color: #FFFFFF;
+}
+.portfolio p {
+    line-height: 150%;
+        letter-spacing: 0.32px;
+}
+
+/*footer*/
+footer {
+    background-color: #2E2F42;
+}
+footer p {
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+.logo-studio-foot {
+    color: #f4f4fd;
+}
+.p-foot {
+    color: #f4f4fd;
+}

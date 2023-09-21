@@ -15,6 +15,11 @@ ul,ol {
     margin: 0;
     padding-left: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
 a {
     text-decoration: none;
 }
@@ -27,12 +32,11 @@ h2 {
     text-transform: capitalize;
 }
 .container {
-    display: flex;
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0;
+    padding: 0 auto;
+    margin: 0 auto;
     align-content: center;
+    outline: 2px solid red;
     
 }
 /* Header */
@@ -40,10 +44,6 @@ h2 {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    flex-shrink: 0;
-    width: 1440px;
-        height: 72px;
-        flex-grow: 1;
 }
 .logo {
     color: #4d5ae5;
@@ -90,19 +90,17 @@ h2 {
         display: inline-flex;
         gap: 40px;
         justify-content: flex-end;
-        padding-left: 332px;
-}
-.contacts-menu:first-child {
-    
+        flex-grow: 1;
+        padding-left: 332px;    
 }
 .contacts-menu-item:hover, .contacts-menu-item:focus {
     color: #404bbf;
 }
 /* Order section */
 .order-container {
-    width: auto;
-    max-width: 1440px;
-    height: 600px;
+   padding-top: 188px;
+   padding-bottom: 292px;
+    
 }
 .order-sec {
     background-color: #2E2F42;
@@ -113,6 +111,7 @@ h2 {
     line-height: 107.143%;
     letter-spacing: 1.12px;
     text-align: center;
+    margin-bottom: 48px;
 }
 .order-button {
     color: #FFF;
@@ -122,21 +121,33 @@ h2 {
     letter-spacing: 0.64px;
     cursor: pointer;
     padding: 16px 32px 16px 32px;
-    height: fit-content;
+    border-radius: 4px;
+    
 }
 .order-button:hover, .order-button:focus {
     background-color: #404BBF;
 }
 /*benefits*/
+.container-menu {
+display: flex;
+flex-wrap: nowrap;
+gap: 24px;
+padding-bottom: 120px;
+align-content: center;
+
+}
 .benefits h3 {
     color: #2E2F42;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.4px;
+    padding-top: 120px;
+    
 }
 .benefits p {
     line-height: 150%;
     letter-spacing: 0.32px;
+    margin-bottom: 120px;
 }
 .benefits-title {
     font-weight: 500;
@@ -157,6 +168,13 @@ h2 {
     letter-spacing: 0.32px;
 }
 /* Our Portfolio */
+.container-menu-portfolio {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding-bottom: 120px;
+        align-content: stretch;
+}
 .portfolio h3 {
     color: #2E2F42;
     font-size: 20px;
@@ -167,6 +185,8 @@ h2 {
 .title-h {
     text-align: center;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .menu {
     background-color: #FFFFFF;

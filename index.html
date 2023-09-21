@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,36 +19,40 @@
         rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="logo" href="./index.html"> Web<span class="logo-studio">Studio</span> </a>
-            <ul>
+    <header class="page-header">
+        <div class="container head-container">
+             <nav class="nav-menu">
+             <a class="logo" href="./index.html"> Web<span class="logo-studio">Studio</span> </a>
+             <ul class="nav-menu">
                 <li>
-                    <a class="nav-menu" href="./index.html"> Studio </a>
+                    <a class="nav-menu-item" href="./index.html"> Studio </a>
                 </li>
                 <li>
-                    <a class="nav-menu" href=""> Portfolio </a>
+                    <a class="nav-menu-item" href=""> Portfolio </a>
                 </li>
-                <li><a class="nav-menu" href=""> Contacts </a>
+                <li><a class="nav-menu-item" href=""> Contacts </a>
                 </li>
-            </ul>
-        </nav>
-        <address class="contacts">
-        <ul>
-            <li>
-                <a class="contacts-menu" href="mailto:info@devstudio.com">info@devstudio.com</a>
+             </ul>
+             </nav>
+         <address class="contacts">
+             <ul class="contacts-menu">
+             <li>
+                <a class="contacts-menu-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                <a class="contacts-menu-item" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
-            <li>
-                <a class="contacts-menu" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-        </ul>
-        </address>
+         </ul>
+         </address>
+         </div>
     </header>
     <main>
         <section class="order-sec">
+            <div class="container order-container">   
         <h1 class="order-title">Effective Solutions
         for Your Business</h1>
         <button class= "order-button" type="button">Order Service</button>
+        </div>
         </section>
         <section class="benefits">
         <h2 hidden>benefits</h2>

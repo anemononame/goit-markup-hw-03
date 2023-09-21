@@ -1,11 +1,19 @@
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
 body {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #434455;
+    margin: 0; 
 }
 ul,ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 a {
     text-decoration: none;
@@ -18,7 +26,25 @@ h2 {
     letter-spacing: 0.72;
     text-transform: capitalize;
 }
+.container {
+    display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    align-content: center;
+    
+}
 /* Header */
+.head-container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex-shrink: 0;
+    width: 1440px;
+        height: 72px;
+        flex-grow: 1;
+}
 .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -34,30 +60,50 @@ h2 {
 .nav-menu {
     color: #2e2f42;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+    
 }
-.nav-menu:hover, .nav-menu:focus {
+.logo {
+    padding-right: 36px;
+}
+.nav-menu-item {
+    color: #2e2f42;
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+}
+.nav-menu-item:hover, .nav-menu-item:focus {
     color: #404bbf;
 }
-.contacts {
-    font-weight: 400;
-        color: #434455;
-        font-style: normal;
-}
-nav {
-    font-weight: 500;
-    color: #2E2F42;
-    letter-spacing: 0.02em;
-}
-.contacts-menu {
+
+.contacts-menu-item {
     font-weight: 500;
         color: #434455;
         letter-spacing: 0.02em;
         line-height: 1.5;
 }
-.contacts-menu:hover, .contacts-menu:focus {
+.contacts-menu {
+    font-style: normal;
+        display: inline-flex;
+        gap: 40px;
+        justify-content: flex-end;
+        padding-left: 332px;
+}
+.contacts-menu:first-child {
+    
+}
+.contacts-menu-item:hover, .contacts-menu-item:focus {
     color: #404bbf;
 }
 /* Order section */
+.order-container {
+    width: auto;
+    max-width: 1440px;
+    height: 600px;
+}
 .order-sec {
     background-color: #2E2F42;
 }
@@ -75,6 +121,8 @@ nav {
     line-height: 150%;
     letter-spacing: 0.64px;
     cursor: pointer;
+    padding: 16px 32px 16px 32px;
+    height: fit-content;
 }
 .order-button:hover, .order-button:focus {
     background-color: #404BBF;

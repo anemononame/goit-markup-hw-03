@@ -33,7 +33,6 @@ h2 {
 }
 .container {
     width: 1158px;
-    padding: 0 auto;
     margin: 0 auto;
     padding: 0 15px 0 15px;
     align-content: center;
@@ -43,11 +42,22 @@ h2 {
     padding-bottom: 120px;
 }
 /* Header */
+.contacts {
+    width: auto;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 300px;
+    gap: 40px;
+}
+.contacts-menu {
+    display: flex;
+}
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
 .contacts-menu-mail {
-    margin-left: 332px;
+    margin-left: 300px;
 }
 .head-container {
     display: flex;
@@ -68,19 +78,24 @@ h2 {
 .logo-studio {
     color: #2e2f42;
 }
-.nav-menu {
+.nav-menu-list {
     display: flex;
+    gap: 40px;
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-weight: 500;
-    gap: 40px;
     align-items: center;
+}
+.nav-menu {
+    display: flex;
+    font-weight: 500;
     padding-bottom: 24px;
     padding-top: 24px;
 }
 .logo {
     margin-right: 76px;
+    padding-bottom: 24px;
+        padding-top: 24px;
 }
 .nav-menu-item {
     color: #2e2f42;
@@ -95,12 +110,17 @@ h2 {
         color: #434455;
         letter-spacing: 0.02em;
         line-height: 1.5;
+        
 }
 .contacts-menu {
     font-style: normal;
         display: flex;
         gap: 40px;
-        margin-left: auto;  
+        margin-left: auto;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        align-items: center;
+          
 }
 .contacts-menu-item:hover, .contacts-menu-item:focus {
     color: #404bbf;
@@ -113,14 +133,16 @@ h2 {
 }
 .order-sec {
     background-color: #2E2F42;
+    padding: 188px 0 188px 0;
 }
 .order-title {
     display: block;
+    max-width: 496px;
     color: #FFF;
     font-size: 56px;
     line-height: 107.143%;
     letter-spacing: 1.12px;
-    text-align: center;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 .order-button {
@@ -132,6 +154,9 @@ h2 {
     line-height: 150%;
     letter-spacing: 0.64px;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
     
@@ -158,9 +183,23 @@ align-content: center;
     line-height: 150%;
     letter-spacing: 0.32px;
 }
-.benefits-title {
+.benefits-menu-title {
     font-weight: 500;
 }
+.vissualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+        
+
 /* Our team */
 .team {
     background-color: #F4F4FD;
@@ -182,6 +221,7 @@ align-content: center;
         flex-wrap: wrap;
         gap: 24px;
         align-content: stretch;
+        flex-basis: calc((100%-72px) / 4);
 }
 .portfolio h3 {
     color: #2E2F42;

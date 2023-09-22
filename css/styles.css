@@ -81,6 +81,9 @@ h2 {
 .logo-studio {
     color: #2e2f42;
 }
+.address {
+padding: 24px 0;
+}
 .nav-menu-list {
     display: flex;
     gap: 40px;

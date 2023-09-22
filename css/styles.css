@@ -93,8 +93,6 @@ padding: 24px 0;
 .nav-menu {
     display: flex;
     font-weight: 500;
-    padding-bottom: 24px;
-    padding-top: 24px;
     align-items: center;
 }
 .logo {

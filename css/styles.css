@@ -35,6 +35,7 @@ h2 {
     width: 1158px;
     padding: 0 auto;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
     align-content: center;
 }
 .section {
@@ -42,11 +43,17 @@ h2 {
     padding-bottom: 120px;
 }
 /* Header */
+.contacts-menu-mail {
+    margin-left: 332px;
+}
 .head-container {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-bottom: 1px solid #e7e9fc;
+    
 }
 .logo {
     color: #4d5ae5;
@@ -61,16 +68,18 @@ h2 {
     color: #2e2f42;
 }
 .nav-menu {
+    display: flex;
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    display: flex;
     gap: 40px;
-    
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .logo {
-    margin-right: 36px;
+    margin-right: 76px;
 }
 .nav-menu-item {
     color: #2e2f42;
@@ -88,9 +97,9 @@ h2 {
 }
 .contacts-menu {
     font-style: normal;
-        display: inline-flex;
+        display: flex;
         gap: 40px;
-        margin-left: 332px;  
+        margin-left: auto;  
 }
 .contacts-menu-item:hover, .contacts-menu-item:focus {
     color: #404bbf;

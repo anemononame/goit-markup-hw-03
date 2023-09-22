@@ -185,6 +185,7 @@ align-content: center;
 }
 .benefits-menu-title {
     font-weight: 500;
+    margin-bottom: 8px;
 }
 .vissualy-hidden {
     position: absolute;
@@ -201,6 +202,16 @@ align-content: center;
         
 
 /* Our team */
+.p-menu {
+    text-align: center;
+}
+.team-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-name-card {
+    padding: 32px 0;
+}
 .team {
     background-color: #F4F4FD;
 }
@@ -222,6 +233,7 @@ align-content: center;
         gap: 24px;
         align-content: stretch;
         flex-basis: calc((100%-72px) / 4);
+        border-radius: 0px 0px 4px 4px;
 }
 .portfolio h3 {
     color: #2E2F42;
@@ -233,10 +245,11 @@ align-content: center;
 .title-h {
     text-align: center;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
-.menu {
+.team-menu {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .portfolio p {
     line-height: 150%;

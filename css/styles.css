@@ -91,6 +91,7 @@ h2 {
     font-weight: 500;
     padding-bottom: 24px;
     padding-top: 24px;
+    align-items: center;
 }
 .logo {
     margin-right: 76px;
@@ -227,6 +228,9 @@ align-content: center;
     letter-spacing: 0.32px;
 }
 /* Our Portfolio */
+.portfolio-menu-title {
+    margin-bottom: 8px;
+}
 .container-menu-portfolio {
     display: flex;
         flex-wrap: wrap;
@@ -234,6 +238,7 @@ align-content: center;
         align-content: stretch;
         flex-basis: calc((100%-72px) / 4);
         border-radius: 0px 0px 4px 4px;
+        row-gap: 48px;
 }
 .portfolio h3 {
     color: #2E2F42;
@@ -259,6 +264,7 @@ align-content: center;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
+    padding: 32px 16px;
 }
 
 /*footer*/

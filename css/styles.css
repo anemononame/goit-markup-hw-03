@@ -26,7 +26,7 @@ a {
 h2 {
     color: #2E2F42;
     font-size: 36px;
-    line-height: 111.111%;
+    line-height: 1.11;
     font-weight: 700;
     letter-spacing: 0.72;
     text-transform: capitalize;
@@ -48,8 +48,8 @@ h2 {
 .contacts {
     width: auto;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0;
+    margin: 0;
     margin-left: 300px;
     gap: 40px;
 }
@@ -72,16 +72,14 @@ h2 {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-studio {
     color: #2e2f42;
 }
-.address {
-padding: 24px 0;
-}
+
 .nav-menu-list {
     display: flex;
     gap: 40px;
@@ -94,6 +92,7 @@ padding: 24px 0;
     display: flex;
     font-weight: 500;
     align-items: center;
+    margin-right: auto;
 }
 .logo {
     margin-right: 76px;
@@ -102,6 +101,7 @@ padding: 24px 0;
 .nav-menu-item {
     color: #2e2f42;
     padding: 24px 0;
+    font-weight: 400;
         
 }
 .nav-menu-item:hover, .nav-menu-item:focus {
@@ -129,11 +129,6 @@ padding: 24px 0;
     color: #404bbf;
 }
 /* Order section */
-.order-container {
-   padding-top: 188px;
-   padding-bottom: 292px;
-    
-}
 .order-sec {
     background-color: #2E2F42;
     padding: 188px 0 188px 0;
@@ -143,7 +138,7 @@ padding: 24px 0;
     max-width: 496px;
     color: #FFF;
     font-size: 56px;
-    line-height: 107.143%;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -154,7 +149,7 @@ padding: 24px 0;
     color: #FFF;
     background-color: #4D5AE5;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor: pointer;
     min-width: 169px;
@@ -181,12 +176,12 @@ align-content: center;
 .benefits h3 {
     color: #2E2F42;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.4px;
     
 }
 .benefits p {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .benefits-menu-title {
@@ -218,7 +213,6 @@ align-content: center;
 .p-menu {
     margin: 0 auto;
     text-align: start;
-    max-width: 264px;
 }
 
 .team-name {
@@ -235,23 +229,25 @@ align-content: center;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .team p {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 /* Our Portfolio */
 .portfolio-menu-title {
     margin-bottom: 8px;
 }
+.menu-portfolio {
+    flex-basis: calc((100%-72px) / 4);
+}
 .container-menu-portfolio {
     display: flex;
         flex-wrap: wrap;
         gap: 24px;
         align-content: stretch;
-        flex-basis: calc((100%-72px) / 4);
         border-radius: 0px 0px 4px 4px;
         row-gap: 48px;
 }
@@ -259,7 +255,7 @@ align-content: center;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .title-h {
@@ -271,9 +267,10 @@ align-content: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    flex-basis: calc((100% - 72px) / 4));
 }
 .portfolio p {
-    line-height: 150%;
+    line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .border-port {
@@ -289,7 +286,7 @@ footer {
     padding: 100px 0;
 }
 footer p {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .logo-studio-foot {
@@ -302,4 +299,6 @@ footer p {
 .logo-foot {
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
+    margin: 0 0 16px;
 }

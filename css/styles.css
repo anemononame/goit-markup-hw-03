@@ -42,9 +42,6 @@ h2 {
     padding-bottom: 120px;
 }
 /* Header */
-.nav-menu-li {
-    padding: 24px 0;
-}
 .contacts {
     width: auto;
     display: flex;
@@ -99,10 +96,11 @@ h2 {
     padding: 24px 0;
 }
 .nav-menu-item {
+    display: block;
     color: #2e2f42;
     padding: 24px 0;
-    font-weight: 400;
-        
+    padding-top: 24px;
+    padding-bottom: 24px;        
 }
 .nav-menu-item:hover, .nav-menu-item:focus {
     color: #404bbf;
@@ -250,6 +248,7 @@ align-content: center;
         align-content: stretch;
         border-radius: 0px 0px 4px 4px;
         row-gap: 48px;
+        width: calc((100% - 48px) /3);
 }
 .portfolio h3 {
     color: #2E2F42;

@@ -47,7 +47,6 @@ h2 {
     display: flex;
     padding: 0;
     margin: 0;
-    margin-left: 300px;
     gap: 40px;
 }
 .contacts-menu {
@@ -59,8 +58,8 @@ h2 {
 
 .head-container {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;  
+    align-items: center;
+ 
 }
 .logo {
     color: #4d5ae5;
@@ -107,9 +106,12 @@ h2 {
 
 .contacts-menu-item {
     font-weight: 400;
-        color: #434455;
-        letter-spacing: 0.02em;
-        line-height: 1.5;
+    display: block;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    padding-bottom: 24px;
+    padding-top: 24px;
         
 }
 .contacts-menu {
@@ -117,8 +119,7 @@ h2 {
         display: flex;
         gap: 40px;
         margin-left: auto;
-        padding-bottom: 24px;
-        padding-top: 24px;
+        
         align-items: center;
           
 }

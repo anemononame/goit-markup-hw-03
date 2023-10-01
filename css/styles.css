@@ -56,9 +56,7 @@ h2 {
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
-.contacts-menu-mail {
-    margin-left: 300px;
-}
+
 .head-container {
     display: flex;
     padding-left: 15px;
@@ -96,7 +94,7 @@ h2 {
     padding: 24px 0;
 }
 .nav-menu-item {
-    font-weight: 400;
+    font-weight: 500;
     display: block;
     color: #2e2f42;
     padding: 24px 0;
@@ -108,7 +106,7 @@ h2 {
 }
 
 .contacts-menu-item {
-    font-weight: 500;
+    font-weight: 400;
         color: #434455;
         letter-spacing: 0.02em;
         line-height: 1.5;
